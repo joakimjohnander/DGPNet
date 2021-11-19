@@ -1,12 +1,12 @@
 # DGPNet - Dense Gaussian Processes for Few-Shot Segmentation
-Here, we will release the code for our work DPGNet. The paper is available at arxiv: https://arxiv.org/abs/2110.03674 .
+Welcome to the public repository for DGPNet. The paper is available at arxiv: https://arxiv.org/abs/2110.03674 .
 
 ## How to run
 ### Download data
 1. Download and unzip PASCAL and COCO images
-2. Download and unzip PASCAL and COCO annotations (we provide link )
+2. Download and unzip PASCAL and COCO annotations (we provide link [here](https://liuonline-my.sharepoint.com/:f:/g/personal/joajo88_ad_liu_se/EmKWrLV-q85Cu4nORmKCErQBCVDI4j_M3SFc7zBsC_QBFA?e=KozVaa))
 3. Change `local_config.py` to point out the images and annotations. Also change `slurm_launch.sh` if using slurm.
-4. Download and unzip PASCAL and COCO data splits (we provide link )
+4. Download and unzip PASCAL and COCO data splits (we provide link [here](https://liuonline-my.sharepoint.com/:f:/g/personal/joajo88_ad_liu_se/EmKWrLV-q85Cu4nORmKCErQBCVDI4j_M3SFc7zBsC_QBFA?e=KozVaa))
 5. Make sure that the data splits are at `DGPNet/data_splits`
 
 ### Install dependencies
