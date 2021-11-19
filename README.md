@@ -19,11 +19,11 @@ sbatch singularity/slurm_launch.sh runfiles/dgp_5shot_pascal_resnet50.py --train
 ```
 
 ## Code layout
-`checkpoints` - Checkpoints will be stored here at the end of training.
-`data_splits` - Defines the different folds.
-`fss` - Code is here.
-`local_config.py` - Used to set up paths
-`logs` - Used to store slurm checkpoints
-`runfiles` - Any experiment we run is defined in a runfile. The runfile is launched as main to start the experiment.
-`singularity` - We use singularity/slurm and any files related to that are stored here.
-`visualization` - During training and testing, our code stores some visualizations. They go here.
+- `checkpoints` - Checkpoints will be stored here at the end of training.
+- `data_splits` - Defines the different folds.
+- `fss` - Code is here.
+- `local_config.py` - Used to set up paths
+- `logs` - Used to store slurm checkpoints
+- `runfiles` - Any experiment we run is defined in a runfile. The runfile is launched as main to start the experiment.
+- `singularity` - We use singularity/slurm and any files related to that are stored here.
+- `visualization` - During training and testing, our code stores some visualizations. They go here.
