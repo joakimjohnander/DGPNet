@@ -5,7 +5,6 @@ workspace
 *debug*
 visualization
 checkpoints
-local_config.py
 logs
 *.tar
 plots
